@@ -1,0 +1,32 @@
+
+.zoom-in-out-box {
+  
+  animation: zoom-in-zoom-out 5s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+
+
+
+
+img{
+    margin:auto;
+	cursor:pointer;
+	transition:4s;
+}
+img:hover{ transform: scale(1.9);
+           transition:4s;
+
+} 
